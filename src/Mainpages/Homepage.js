@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../component/NavBar/Navbar";
 import MiniNavbar from "../component/CategoryBar/MiniNavbar";
-import Products from "../component/Recommend/Products";
+import Recommend from "../component/Recommend/Recommend";
 import Footer from "../component/Footer/Footer";
 import Waves from "../component/Footer/Waves";
 import Banner from "../component/Banner/Banner";
@@ -19,7 +19,7 @@ const Homepage = () => {
       <Banner />
       <br />
       {/* products component is imported from the Products.js present in "src/component/Recommend/Products.js" */}
-      <Products />
+      <Recommend />
       {/* Footer component is imported from the Footer.js present in "src/component/Footer/Footer.js" */}
       <Waves />
       <Footer />

@@ -41,30 +41,30 @@ const theme = createTheme();
 
 /*Login function saves the username and password in the database using POST Method*/
 export default function Loginpage() {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [email, setEmail] = useState("");
-  async function signUp() {
-    let item = { email, username, password };
-    console.warn(item);
+  // const [username, setUsername] = useState("");
+  // const [password, setPassword] = useState("");
+  // const [email, setEmail] = useState("");
+  // async function signUp() {
+  //   let item = { email, username, password };
+  //   console.warn(item);
 
-    let result = await fetch("http://127.0.0.1:8000/api/v1/users/", {
-      method: "POST",
-      body: JSON.stringify(item),
-      headers: {
-        "Content-type": "application/json",
-        Accept: "application/json",
-      },
-    });
-    result = await result.json();
-    console.log("results", result);
-  }
+  //   let result = await fetch("http://127.0.0.1:8000/api/v1/users/", {
+  //     method: "POST",
+  //     body: JSON.stringify(item),
+  //     headers: {
+  //       "Content-type": "application/json",
+  //       Accept: "application/json",
+  //     },
+  //   });
+  //   result = await result.json();
+  //   console.log("results", result);
+  // }
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    window.location.href = "/login";
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   const data = new FormData(event.currentTarget);
+  //   window.location.href = "/login";
+  // };
 
   return (
     //  ThemeProvider component is imported from the material UI
@@ -107,7 +107,7 @@ export default function Loginpage() {
             <Box
               component="form"
               noValidate
-              onSubmit={handleSubmit}
+              // onSubmit={handleSubmit}
               sx={{ mt: 1 }}
             >
               {/*             
@@ -135,7 +135,7 @@ export default function Loginpage() {
                 name="fname"
                 autoComplete="fname"
                 autoFocus
-                onChange={(e) => setUsername(e.target.value)}
+                // onChange={(e) => setUsername(e.target.value)}
               />
 
               {/* <TextField
@@ -179,7 +179,7 @@ export default function Loginpage() {
                 name="email"
                 autoComplete="email"
                 autoFocus
-                onChange={(e) => setEmail(e.target.value)}
+                // onChange={(e) => setEmail(e.target.value)}
               />
               <TextField
                 margin="normal"
@@ -189,8 +189,8 @@ export default function Loginpage() {
                 label="Password"
                 type="password"
                 id="password"
-                autoComplete="current-password"
-                onChange={(e) => setPassword(e.target.value)}
+                // autoComplete="current-password"
+                // onChange={(e) => setPassword(e.target.value)}
               />
 
               {/* <TextField
@@ -205,7 +205,7 @@ export default function Loginpage() {
               /> */}
 
               <Button
-                onClick={signUp}
+                // onClick={signUp}
                 type="submit"
                 fullWidth
                 variant="contained"

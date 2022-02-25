@@ -21,15 +21,15 @@ import Footer from "../component/Footer/Footer";
 import Waves from "../component/Footer/Waves";
 
 /*loginUser function checks for the authenticate login credential and post request is used to upload the credentials to the database*/
-async function loginUser(credentials) {
-  return fetch("http://127.0.0.1:8000/api/v1/token/login/", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(credentials),
-  }).then((data) => data.json());
-}
+// async function loginUser(credentials) {
+//   return fetch("http://127.0.0.1:8000/api/v1/token/login/", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify(credentials),
+//   }).then((data) => data.json());
+// }
 
 /*Copyright function returns the copyright details*/
 function Copyright(props) {
@@ -55,18 +55,18 @@ function Copyright(props) {
 /*Login function checks for the username and password and generates tokens*/
 export default function Login({ setToken }) {
   const theme = createTheme();
-  const [username, setUserName] = useState();
-  const [password, setPassword] = useState();
+  // const [username, setUserName] = useState();
+  // const [password, setPassword] = useState();
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const token = await loginUser({
-      password,
-      username,
-    });
-    setToken(token);
-    window.location.href = "/";
-  };
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   const token = await loginUser({
+  //     password,
+  //     username,
+  //   });
+  //   setToken(token);
+  //   window.location.href = "/";
+  // };
 
   return (
     // ThemeProvider component is imported from the material UI
@@ -108,7 +108,7 @@ export default function Login({ setToken }) {
             <Box
               component="form"
               noValidate
-              onSubmit={handleSubmit}
+              // onSubmit={handleSubmit}
               sx={{ mt: 1 }}
             >
               {/* <Grid container
@@ -160,7 +160,7 @@ export default function Login({ setToken }) {
                 name="username"
                 autoComplete="username"
                 autoFocus
-                onChange={(e) => setUserName(e.target.value)}
+                // onChange={(e) => setUserName(e.target.value)}
               />
               <TextField
                 margin="normal"
@@ -171,7 +171,7 @@ export default function Login({ setToken }) {
                 type="password"
                 id="password"
                 autoComplete="current-password"
-                onChange={(e) => setPassword(e.target.value)}
+                // onChange={(e) => setPassword(e.target.value)}
               />
               <FormControlLabel
                 control={<Checkbox value="remember" color="primary" />}
@@ -209,6 +209,6 @@ export default function Login({ setToken }) {
   );
 }
 
-Login.propTypes = {
-  setToken: PropTypes.func.isRequired,
-};
+// Login.propTypes = {
+//   setToken: PropTypes.func.isRequired,
+// };
