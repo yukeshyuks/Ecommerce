@@ -1,0 +1,128 @@
+/*This css file is used to style the 'PropCat.js','SpoCat.js','BikeCat.js' and 'FunCat.js' */
+
+
+.cat1{
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+/*this changes the position of the entire content under class 'cat1' in 'PropCat.js','SpoCat.js','BikeCat.js' and 'FunCat.js'*/
+
+
+.rat1{
+    position: relative;
+    font-family: 'poppins',sans-serif;
+    top: 40px;
+    left: 420px;
+}
+/*Changes the position of the Heading comes under the class 'rat1' in 'PropCat.js','SpoCat.js','BikeCat.js' and 'FunCat.js'*/
+
+
+.one1{
+    position: absolute;
+    /* left: -500px; */
+    top: 150px;
+    bottom: 20px;
+}
+/*Adjusts the Position of First button under the class 'one1' in'PropCat.js','SpoCat.js','BikeCat.js' and 'FunCat.js'*/
+
+
+.two1{
+    position: absolute;
+    /* left: -490px; */
+    top: 230px;
+    bottom: 20px;
+}
+/*Adjusts the Position of Second button under the class 'two1' in 'PropCat.js','SpoCat.js','BikeCat.js' and 'FunCat.js'*/
+
+
+.three1{
+    position: absolute;
+    /* left: -490px; */
+    top: 300px;
+    bottom: 20px;
+
+}
+/*Adjusts the Position of Third button under the class 'three1' in 'PropCat.js','SpoCat.js','BikeCat.js' and 'FunCat.js'*/
+
+
+.four1{
+    position:absolute;
+    /* left: -490px; */
+    top: 370px;
+    bottom: 20px;
+}
+/*Adjusts the Position of Fourth button under the class 'four1' in 'PropCat.js','SpoCat.js','BikeCat.js' and 'FunCat.js'*/
+
+
+.five1{
+    position: absolute;
+    /* left: -490px; */
+    top: 440px;
+    bottom: 20px;
+}
+/*Adjusts the Position of Fifth button under the class 'five1' in 'PropCat.js','SpoCat.js','BikeCat.js' and 'FunCat.js'*/
+
+
+
+.six1{
+    position: absolute;
+    /* left: -490px; */
+    top: 510px;
+    bottom: 20px;
+}
+/*Adjusts the Position of sixth button under the class 'six1' in 'PropCat.js','SpoCat.js','BikeCat.js' and 'FunCat.js'*/
+
+
+.subcat{
+    color: black;
+    width: 1200px;
+    border: 1px solid #F0F0F0;
+    background-color: #F0F0F0;
+    font-family: 'poppins',sans-serif;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px 32px;
+    transition-duration: 0.5s;
+    
+}
+
+
+.subcat:hover{
+    color:black ;
+    background-color:#b0f7f2 ;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
+/*Adjusts the button size,color,shape with class name 'btnn1' in 'PropCat.js','SpoCat.js','BikeCat.js' and 'FunCat.js' */
+
+
+/*This is used to locate the position of the curve*/
+
+.custom-shape-divider-bottom-1642824782-SU {
+    position: absolute;
+    top: 580px;
+    
+    left: -140px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+
+/* this is used to adjust  the design of the curve */
+
+.custom-shape-divider-bottom-1642824782-SU svg {
+position: relative;
+display: block;
+width: calc(226% + 1.3px);
+height: 177px;
+transform: rotateY(180deg);
+}
+
+
+/* This is used to give colour of the curve */
+
+.custom-shape-divider-bottom-1642824782-SU .shape-fill {
+fill:#86e6df;
+}

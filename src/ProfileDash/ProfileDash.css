@@ -1,0 +1,94 @@
+/* This Page  is Used to style the 'ProfileDashboard.js'*/
+
+
+.catp{
+    position: relative;
+    top: 20px;
+    left: 180px;
+}
+/*this changes the position of the entire content under class 'catp' in ProfileDashBoard.js*/
+
+
+.ratp{
+    font-size: 60px;
+    
+    font-family: 'poppins',sans-serif;
+    position: relative;
+    top: 45px;
+    left: 420px;
+    bottom: 50px;
+}
+/*Changes the position of the Heading comes under the class 'ratp' in ProfileDashBoard.js*/
+
+
+.onep{
+    
+    position: absolute;
+    left: -20px;
+    top: 240px;
+    bottom: 20px;
+}
+/*Adjusts the Position of First button under the class 'onep' in ProfileDashBoard.js*/
+
+
+.twop{
+    position: absolute;
+    left: -20px;
+    top: 320px;
+    bottom: 20px;
+}
+/*Adjusts the Position of Second button under the class 'twop' in ProfileDashBoard.js*/
+
+
+.threep{
+    position: absolute;
+    left: -13px;
+    top: 400px;
+    bottom: 20px;
+
+}
+/*Adjusts the Position of Third button under the class 'threep' in ProfileDashBoard.js*/
+
+
+.fourp{
+    position:absolute;
+    left: -20px;
+    top: 480px;
+    bottom: 20px;
+}
+/*Adjusts the Position of Fourth button under the class 'fourp' in ProfileDashBoard.js*/
+
+
+.fivep{
+    position:absolute;
+    left: -20px;
+    top: 160px;
+    bottom: 20px;
+
+}
+/*Adjusts the Position of Fifth button under the class 'fifthp' in ProfileDashBoard.js*/
+
+
+
+.dash{
+    color: black;
+    width: 1200px;
+    border: 1px solid #F0F0F0;
+    font-family: 'poppins',sans-serif;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px 32px;
+    background-color: #F0F0F0;
+    transition: 0.5s;
+    
+
+}
+.dash:hover{
+    color:black ;
+    background-color:#b0f7f2 ;
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
+/*Adjusts the button size,color,shape with class name 'dash' in ProfileDashBoard.js*/
+
+
+

@@ -1,0 +1,26 @@
+/*This css file is used to style the curve in 'Waves.js' */
+
+/*This is used to locate the position of the curve*/
+.custom-shape-divider-bottom-1642824782-H {
+  position: relative;
+  top: 70px;
+  left: -140px;
+  width: 120%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+/* this is used to adjust  the design of the curve */
+.custom-shape-divider-bottom-1642824782-H svg {
+  position: relative;
+  display: block;
+  width: calc(226% + 1.3px);
+  height: 177px;
+  transform: rotateY(180deg);
+}
+/* This is used to give colour of the curve */
+
+.custom-shape-divider-bottom-1642824782-H .shape-fill {
+  fill: #437fc7;
+}

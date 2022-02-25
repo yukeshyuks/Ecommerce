@@ -1,0 +1,92 @@
+/*This css file is used to style 'Category.js'*/
+
+
+.cat{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+/* Adjusts the entire content named under the class name 'cat' in 'Category.js' */
+
+
+.rat{
+    position: relative;
+    font-family: 'poppins',sans-serif;
+    top: 40px;
+    left: 450px;
+}
+/*Changes the position of the Heading comes under the class 'ratp' in 'Category.js'*/
+
+
+.one{
+    position: absolute;
+    /* left: -500px; */
+    top: 150px;
+    bottom: 20px;
+}
+/*Adjusts the Position of First button under the class 'one' in 'Category.js'*/
+
+
+.two{
+    position: absolute;
+    /* left: -490px; */
+    top: 230px;
+    bottom: 20px;
+}
+/*Adjusts the Position of Second button under the class 'two' in 'Category.js'*/
+
+
+.three{
+    position: absolute;
+    /* left: -490px; */
+    top: 300px;
+    bottom: 20px;
+
+}
+/*Adjusts the Position of Third button under the class 'three' in 'Category.js'*/
+
+
+.four{
+    position:absolute;
+    /* left: -490px; */
+    top: 370px;
+    bottom: 20px;
+}
+/*Adjusts the Position of fourth button under the class 'four' in 'Category.js'*/
+
+
+.five{
+    position: absolute;
+    /* left: -490px; */
+    top: 440px;
+    bottom: 20px;
+}
+/*Adjusts the Position of fifth button under the class 'five' in 'Category.js'*/
+
+
+.six{
+    position: absolute;
+    /* left: -490px; */
+    top: 510px;
+    bottom: 20px;
+}
+/*Adjusts the Position of sixth button under the class 'six' in 'Category.js'*/
+
+
+.btn{
+    color: black;
+    width: 1200px;
+    border: 1px solid #F0F0F0;
+    background-color: #F0F0F0;
+    font-family: 'poppins',sans-serif;
+    display: inline-block;
+    padding: 15px 32px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.btn:hover{
+    color:black ;
+    background-color:#b0f7f2 ;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
+/*Adjusts the button size,color,shape with class name 'btn' in 'Category.js'*/

@@ -1,0 +1,12 @@
+.foot {
+  background-color: #f0f0f0;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.foot:hover {
+  background-color: #a6f5f1;
+  border-radius: 100%;
+  border: 1px solid #b0f7f2;
+  padding: 7px;
+}

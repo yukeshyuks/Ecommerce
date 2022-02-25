@@ -1,0 +1,85 @@
+/*This css file is used to style the Photo holder used in 'edit profile'  */
+
+
+
+/* The following code is used to provide background for the profile picture */
+
+  .pages{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container1{
+    position: relative;
+    top: -120px;
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+
+
+
+  /* The following code is used to adjust the heading of the picture under classname "heading1" */
+
+  .heading1{
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+
+
+
+  /* The following code is used for adjusting the size and positioning of the image */
+
+  .img-holder1{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: 3px  ;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  .img1{
+    width: 300px;
+    height: 300px;
+    object-fit:cover ;
+  }
+  #input[type="file"]{
+    display: none;
+  }
+  .label1{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+
+  /* The following code is used for styling the button below the picture in the classname "image-uploadd" */
+  
+  .image-uploadd{
+    font-family: 'poppins',sans-serif;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    background-color: #F0F0F0;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .image-uploadd:hover{
+    color: black;
+    background-color: #b0f7f2;
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+  }

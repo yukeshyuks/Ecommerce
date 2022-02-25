@@ -1,0 +1,98 @@
+/*This file is used to style 'Product.js'*/
+
+/* The following code is used to provide background for the profile picture */
+.pages2{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container2{
+    position: relative;
+    top: -120px;
+    left: -300px;
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* The following code is used to adjust the heading of the picture under classname "heading2" */
+  .heading2{
+    text-align: center;
+    position: relative;
+    left: 200px;
+    font-family: 'poppins',sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  /* The following code is used for adjusting the size and positioning of the image */
+  .img-holder2{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: 3px  ;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  .img2{
+    width: 700px;
+    height: 600px;
+    object-fit:cover ;
+  }
+  #input[type="file"]{
+    display: none;
+  }
+  .label2{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* The following code is used for styling the button below the picture in the classname "image-upload2" */
+  .image-upload2{
+    position: relative;
+    font-family: 'poppins',sans-serif;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    top: 300px;
+    left: 180px;
+    padding-bottom: 10px;
+    background-color: #F0F0F0;
+    border-color: black;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .image-upload2:hover{
+    color: black;
+    background-color: #b0f7f2;
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    
+  }
+
+
+/* The following is responsible for the styling of the button  under the class name 'btn3' */
+
+
+  .btn3{
+    width: 300px;
+    color: black;
+    border: 1px solid #F0F0F0;
+    background-color: #F0F0F0;
+    display: inline-block;
+    padding: 15px 32px;
+    
+  }
+  .btn3:hover{
+    color: black;
+    background-color: #b0f7f2;
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+
+  }
