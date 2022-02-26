@@ -58,7 +58,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://yukeshyuks.github.io/Ecommerce/",
   "devDependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2"
